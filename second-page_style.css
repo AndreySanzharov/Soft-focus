@@ -1,0 +1,198 @@
+header
+{
+    height: 41px;
+    width: 825px;
+    left: 307px;
+    top: 50px;
+    border-radius: 0px;
+    padding: 0px 30px 0px 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 30px;
+    gap: 49px;
+    
+    position: absolute;
+    width: 825px;
+    height: 41px;
+    left: 307px;
+    top: 50px;    
+}
+
+header .mnu_top{
+    list-style-type: none;
+}
+/*
+header .mnu_top li{
+    display: inline-block;
+    margin-right: 49px;
+}
+*/
+ 
+title {
+    word-spacing: 49px;
+}
+
+header .mnu_top li a{
+    display: block;
+    text-decoration: none;
+    color: #194157;
+    font-size: 16px;
+    font-weight: 400;
+    -webkit-transition:color .4s ease;
+    -o-transition:color .4s ease;
+    transition:color .4s ease;
+    line-height: 2.4;
+    
+}
+
+
+
+.locacion {
+    position: absolute;
+    left: 30px;
+    top: 15.5px;
+}
+
+.gal1{
+    position: absolute;
+    left: 159px;
+    top: 24.19px;
+    color: #194157
+}
+
+.oproecte{
+    position: absolute;
+    left: 209.01px;
+    top: 15.02px;
+}
+
+.bold{
+    position: absolute;
+    left: 348.12px;
+    top: 15.01px;
+}
+
+.fotost {
+    position: absolute;
+    left: 512px;
+    top: 15.02px;
+}
+
+.gal2{
+    position: absolute;
+    left: 679.26px;
+    top: 24.19px;
+    color: #194157
+}
+
+.stati{
+    position: absolute;
+    left: 729.4px;
+    top: 15.02px;
+}
+
+span.bold {
+    font-weight: 700;
+}
+
+header .mnu_top li a:hover {
+    color:red;
+}
+
+
+.novosti { 
+	color:rgba(25.411459431052208, 65.08444279432297, 87.12500050663948, 1);
+	width:289.745849609375px;
+	height:81.29287719726562px;
+	position:absolute;
+	left: 150px;
+	top:161px;
+	font-family:NEXT ART;
+	text-align:left;
+	font-size:36px;
+	letter-spacing:0;
+}
+
+
+.carta {
+	position: absolute;
+
+	left: 150px;
+	top: 236px;
+	border: 5px darkblue;
+}
+
+.check-box{
+    position: absolute;
+
+	left: 924px;
+	top: 440px;
+}
+
+.largerCheckbox {
+    width: 30px;
+    height: 30px;
+}
+
+.checkbox-txt {
+    top: 413px;
+    left: 924px;
+    color: #194157;
+    font-family: NEXT ART;
+}
+
+
+.search-form{
+    position: absolute;
+    margin-left: 923px;
+    margin-top: 236px;
+    border: 1px solid #194157;
+    display: inline-flex;
+    padding: 0 20 px;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    border-radius: 11px;
+   padding-right: 10px;
+    background-color:#B6A6DD;
+}
+
+.search-form-txt{
+    border:none;
+    width: 366px;
+    outline: none;
+    font-size: 16px;
+    padding-right: 10px;
+    background-color: transparent;
+    color: #D6E3EA;
+    font-family: NEXT ART;
+    
+}
+
+.search-form-btn{
+    border:none;
+    background-color:transparent;
+
+}
+
+.search-form-image{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: transparent;
+    cursor: pointer;
+    width: 17px;
+    height: 17px;
+}
+
+input::placeholder {
+    color: #D6E3EA;
+    font-family: NEXT ART;
+}
+
+.cities{
+    position: absolute;
+    left: 924px;
+    top: 285px;
+}
