@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soft-Focus</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <nav class="header__nav">
+                    <ul class="header__menu">
+                        <li class="header__item"><a class="header__link" href="#">Локации</a></li>
+                        <li class="header__item"><a class="header__link" href="#">О проекте</a></li>
+                    </ul>
+                </nav>
+
+                <a class="header__title">Soft-Focus</a>
+
+                <nav class="header__nav">
+                    <ul class="header__menu">
+                        <li class="header__item"><a class="header__link" href="#">Фотостудии</a></li>
+                        <li class="header__item"><a class="header__link" href="#">Статьи</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="page">
+
+        <section class="preview">
+            <div class="container">
+                <div class="preview__inner">
+                    <div class="preview__info">
+                        <h1 class="preview__title">Новости фотоиндустрии</h1>
+                        <p class="preview__text">Интересуешься фотографией?<br> А может быть ты профессиональный
+                            фотограф или случайный посетитель нашего сайта, который хочет крутые фотографии? Тогда
+                            листай ленту и следи за актуальной информацией</p>
+                        <a href="#" class="preview__link">Подробнее</a>
+                    </div>
+
+                    <div class="preview__slider-inner">
+                        <div class="preview__slider swiper">
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide"><img src="img/slide3.png" alt="">
+                                    <div class="preview__slider-info">ТОП - 5 ИНТЕРЕСНЫХ ЛОКАЦИЙ ДЛЯ ТВОЕЙ УЛИЧНОЙ ФОТОСЕССИИ</div>
+                                </div>
+                                <div class="swiper-slide"><img src="img/slide.png" alt="">
+                                    <div class="preview__slider-info">ДОБАВЛЕНА НОВАЯ ФОТОСТУДИЯ, ГОТОВАЯ К ФОТОГРАФИЯМ. БЫСТРЕЕ СМОТРИ!</div>
+                                </div>
+                                <div class="swiper-slide"><img src="img/slide2.png" alt="">
+                                    <div class="preview__slider-info">НОВАЯ ЛОКАЦИЯ! ПЕРЕХОДИ И СМОТРИ</div>
+                                </div>
+                            </div>
+                            <!-- If we need pagination -->
+                            <div class="swiper-pagination"></div>
+                            
+                        </div>
+                        
+                        <div class="preview__slider-btn">
+                            <div class="swiper-button-prev">
+                                <div class="arrow__marker-left"></div>
+                            </div>
+                            <div class="swiper-button-next">
+                                <div class="arrow__marker-right"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="map">
+            <div class="container">
+                <div class="map__inner">
+                    <div class="map__item">
+                        <h2 class="map__title">Самые популярные места в твоем городе в паре кликов от тебя</h2>
+                        <p class="map__text">На карте ты можешь посмотреть все интересующие локации твоего города и
+                            выбрать ту, что придётся по душе. Сделай шаг навстречу хорошим фото!</p>
+                        <img src="img/map.png" alt="map" class="map__img">
+                        <a href="#" class="map__link">Посмотреть места</a>
+                    </div>
+                    <div class="map__item">
+                        <h2 class="map__title">Фотостудии на любой вкус и кошелёк ближе, чем ты думаешь </h2>
+                        <p class="map__text">Большая база разных студий, где ты сможешь воплотить в жизнь те самые
+                            фотографии из Пинтереста</p>
+                        <img src="img/map.png" alt="map" class="map__img">
+                        <a href="#" class="map__link">Выбрать фотостудию</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section class="article">
+            <div class="container">
+                <h2 class="article__title">Статьи</h2>
+                <p class="article__text">Не забывай о полезной информации, откройся новому! Смотри, что в топе</p>
+                <div class="article__slider swiper">
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <a href="#" class="swiper-slide">
+                            <div class="article__slider-img">
+                                <img src="img/article.png" alt="">
+                                <div class="article__slider-description">Школьникам и студентам в помощь: 10 полезных Telegram-ботов для учебы</div>
+                            </div>
+                            <div class="article__slider-info">Учись программировать, запоминай даты, решай химические реакции!</div>
+                        </a>
+                        <a href="#" class="swiper-slide">
+                            <div class="article__slider-img">
+                                <img src="img/article3.png" alt="">
+                                <div class="article__slider-description">Школьникам и студентам в помощь: 10 полезных Telegram-ботов для учебы</div>
+                            </div>
+                            <div class="article__slider-info">Учись программировать, запоминай даты, решай химические реакции!</div>
+                        </a>
+                        <a href="#" class="swiper-slide">
+                            <div class="article__slider-img">
+                                <img src="img/article2.png" alt="">
+                                <div class="article__slider-description">Школьникам и студентам в помощь: 10 полезных Telegram-ботов для учебы</div>
+                            </div>
+                            <div class="article__slider-info">Учись программировать, запоминай даты, решай химические реакции!</div>
+                        </a>
+                    </div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev">
+                        <div class="arrow__marker-left"></div>
+                    </div>
+                    <div class="swiper-button-next">
+                        <div class="arrow__marker-right"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+
+
+
+
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+
+                <h2 class="footer__logo-title">Soft-Focus</h2>
+
+                <nav class="footer__column">
+                    <h3 class="footer__title">Навигация</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="#" class="footer__link">Локации</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Фотостудии</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Статьи</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">O проекте</a></li>
+                    </ul>
+                </nav>
+                <div class="footer__column">
+                    <h3 class="footer__title">Связь</h3>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a href="#" class="footer__link">
+                                <svg width="18" height="20" viewBox="0 0 18 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M15.3641 15.3638C16.6228 14.1051 17.4799 12.5014 17.8271 10.7556C17.9419 10.1785 17.9993 9.59435 18 9.01153C18 9.00386 18 8.99619 18 8.98852C17.9985 7.81611 17.7679 6.64941 17.3149 5.55571C16.6337 3.9112 15.4801 2.50562 14.0001 1.51671C12.5266 0.53214 10.7953 0.00461317 9.02345 0H8.97656C7.20472 0.00461317 5.47345 0.53214 3.99992 1.51671C2.51989 2.50562 1.36634 3.9112 0.685133 5.55571C0.23061 6.65299 0 7.82375 0 9.00003C0 9.58666 0.0573573 10.1747 0.172903 10.7556C0.520132 12.5014 1.37725 14.1051 2.63588 15.3638L6.87998 19.6069C7.02874 19.7555 7.19176 19.8871 7.3654 20H10.6356C10.8092 19.8871 10.972 19.7557 11.1208 19.6071L15.3641 15.3638ZM9 1.99997C7.61555 1.99997 6.26219 2.4105 5.11105 3.17966C3.95991 3.94881 3.06271 5.04204 2.53288 6.3211C2.00306 7.60016 1.86441 9.00761 2.13448 10.3655C2.40454 11.7233 3.07115 12.9705 4.05003 13.9495L5.38791 10.7198C5.13922 10.1986 5 9.61518 5 8.99924C5 7.25909 6.11119 5.77847 7.66272 5.22824L9 1.99997ZM9 1.99997L7.66272 5.22824C8.08086 5.07996 8.53103 4.99924 9 4.99924C11.2091 4.99924 13 6.7901 13 8.99924C13 11.2084 11.2091 12.9992 9 12.9992C7.40685 12.9992 6.03118 12.0677 5.38791 10.7198L4.05003 13.9495L8.29375 18.1922C8.48124 18.3794 8.73559 18.4847 9.0005 18.4847C9.26554 18.4847 9.51975 18.3795 9.70725 18.1922L13.9499 13.9496C14.9288 12.9706 15.5955 11.7233 15.8655 10.3655C16.1356 9.00761 15.997 7.60016 15.4671 6.3211C14.9373 5.04204 14.0401 3.94881 12.889 3.17966C11.7378 2.4105 10.3845 1.99997 9 1.99997ZM9 6.99924C7.89543 6.99924 7 7.89467 7 8.99924C7 10.1038 7.89543 10.9992 9 10.9992C10.1046 10.9992 11 10.1038 11 8.99924C11 7.89467 10.1046 6.99924 9 6.99924Z"
+                                        fill="white" />
+                                </svg>
+                                <span>Текст</span>
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="mailto:examplemail@yandex.ru" class="footer__link">
+                                <svg width="20" height="16" viewBox="0 0 20 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M0 2.98557L7.40544e-05 2.9809C0.0103054 1.33738 1.34213 0.00733884 2.98634 0H17.0137C18.6579 0.00733883 19.9897 1.33737 20 2.98089L20 2.98349V13.0096C19.9948 14.662 18.6536 16 17 16H3.00001C1.34316 16 1.47071e-05 14.6568 1.47071e-05 13V3.0137L0 3.01265V2.98557ZM3.00001 1.99997C2.61376 1.99997 2.27865 2.21896 2.11208 2.53956L10 7.79818L17.888 2.53956C17.7214 2.21896 17.3863 1.99997 17 1.99997H3.00001ZM18 13V4.86855L10.5547 9.83208C10.2188 10.056 9.78121 10.056 9.44531 9.83208L2.00001 4.86855V13C2.00001 13.5523 2.44773 14 3.00001 14H17C17.5523 14 18 13.5523 18 13Z"
+                                        fill="white" />
+                                </svg>
+                                <span>examplemail@yandex.ru</span>
+                            </a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="tel:+70000000000" class="footer__link">
+                                <svg width="19" height="18" viewBox="0 0 19 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M3 1H7L9 5.6L6.5 6.98C7.57096 8.97781 9.32847 10.5947 11.5 11.58L13 9.28L18 11.12V14.8C18 15.288 17.7893 15.756 17.4142 16.1011C17.0391 16.4461 16.5304 16.64 16 16.64C12.0993 16.4219 8.42015 14.898 5.65683 12.3557C2.8935 9.81346 1.23705 6.42868 1 2.84C1 2.352 1.21071 1.88399 1.58579 1.53892C1.96086 1.19386 2.46957 1 3 1Z"
+                                        stroke="white" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                                <span>+7(000) 000 00 00</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
